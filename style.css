@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+}
+
+.Hero-top{
+    background-image: url(https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Hero-top h1{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 0 8px 8px rgba(0, 0, 0, .3);
+}
+
+.Hero-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 242, 204);
+}
+
+.text{
+    margin: 50px 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color:black;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    flex-wrap: wrap;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+    font-family: cursive;
+}
+
+.navbar ul li a:hover{
+    color: violet;
+}
+
+.cta-button{
+    display: inline-block;
+    width: 130px;
+    margin: 20px 50px;
+    background-color: black;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:white;
+}
+
+.cta-button:hover{
+    background-color: rgb(137, 15, 188);
+    color:black;
+    transform: scale(1.05);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;   
+    background-color: black;
+    padding: 60px 10%;
+}
+
+.left-box h2{
+    color: violet;
+    font-family: cursive;
+}
+
+.left-box p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.social a{
+    color: violet;
+}
+
+.right-box h2{
+    color: violet;
+    font-family: cursive;
+}
+
+.text1{
+    color: violet;
+    font-family: cursive;
+}
+.msg{
+    color: violet;
+    font-family: cursive;
+}
+
+@media (max-width: 992px) {
+    .Hero-top h1 {
+        font-size: 50px;
+    }
+    .text {
+        font-size: 18px;
+        margin: 40px 5%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .Hero-top h1 {
+        font-size: 36px;
+    }
+    .text {
+        font-size: 16px;
+        margin: 30px 10px;
+    }
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 16px;
+        margin: 30px auto;
+    }
+    .Hero-top {
+        height: 70vh;
+        padding: 20px;
+    }
+}
