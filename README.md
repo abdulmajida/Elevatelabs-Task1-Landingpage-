@@ -33,4 +33,6 @@ website-w3schools.com
 
 ALL SECTIONS WERE MADE REPONSIVE.
 
+ Key Concepts: HTML5, CSS3, Flexbox, Grid, Media Queries, Responsive Design.
+
 
